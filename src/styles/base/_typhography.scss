@@ -1,0 +1,55 @@
+body {
+	color: var(--black);
+  font-family: $font-heading;
+	font-size: 14px;
+  line-height: 1.7;
+  font-weight: var(--f-weight-normal);
+  padding-top: calc(var(--h-height) + var(--h-promobar-height));
+  -webkit-font-smoothing: antialiased;
+
+  @media (--ml) {
+    font-size: 15px;
+  }
+
+  @media (--xl) {
+    font-size: 16px;
+  }
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: var(--f-weight-normal);
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.h1 {
+}
+.h2 {
+}
+.h3 {
+}
+.h4 {
+}
+.h5 {
+}
+.h6 {
+}
+.link {
+  color: inherit;
+}
+
+.hr {
+  display: block;
+  background-color: currentColor;
+  color: inherit;
+  border: 0;
+  height: 1px;
+  width: 100%;
+  margin: 0;
+}
